@@ -70,9 +70,8 @@ body{
 .h1 {
     max-width: 734px;
     color:var(--white-color);
-    font-size: 64px;
-    line-height: 95px;
     font-weight: 500;
+    font-size: 64px;
     letter-spacing: 0.02em;
     text-transform: uppercase;
     text-align: center;
