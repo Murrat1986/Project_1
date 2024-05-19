@@ -69,13 +69,14 @@ body{
 .h1 {
     max-width: 734px;
     color:var(--white-color);
-    font-family: "Oswald" , sans-serif;
     font-size: 64px;
-    font-weight: 700;
-    letter-spacing: 0.2vw;
+    line-height: 95px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
     text-transform: uppercase;
     text-align: center;
     margin: 0 auto 20px ;
+
 }
 .h4 {
     max-width: 734px;
@@ -102,11 +103,11 @@ body{
     font-size:21px
 }
 
-.text-h4{
+/* .text-h4{
     font-family: "Oswald" , sans-serif;
     font-weight:500;
     font-size:24px
-}
+} */
 .text-p{
     font-family: "Open Sans" , sans-serif;
     font-size:16px
