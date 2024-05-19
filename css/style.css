@@ -12,10 +12,6 @@ font-family: "Oswald" , sans-serif; */
 
 html{
     box-sizing:border-box;
-    min-height: 740px;
-    background-image: url(../images/head_img.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 * , *::after ,*::before{
@@ -34,7 +30,10 @@ body{
 } 
 
 .header {
-    color:inherit;
+    min-height: 740px;
+    background-image: url(../images/head_img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .header__title {
     display: flex;
