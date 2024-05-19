@@ -1,0 +1,118 @@
+/* font-family: "Open Sans" , sans-serif;
+font-family: "Oswald" , sans-serif; */
+
+:root{
+    --acsent-color:#F7654A;
+    --gray-color:#999999;
+    --dark-color:#404149;
+    --white-color:#FFFFFF;
+    --background-color:#e5e5e5;
+    /* --oswald:"font-family: "Oswald" , sans-serif"; */
+}
+
+html{
+    box-sizing:border-box;
+    min-height: 740px;
+    background-image: url(../images/head_img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+* , *::after ,*::before{
+    box-sizing:inherit;
+}
+
+body{
+    margin: 0;
+    font-family: "Oswald" , sans-serif;
+    font-weight: 400;
+}
+
+.container{
+    max-width:1110px;
+    margin: 0 auto;
+} 
+
+.header {
+}
+.header__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 20px;
+    margin-bottom: 112px;
+}
+.logo {
+    height: 60px;
+    width: 60px;
+}
+.burger {
+    height: 50px;
+    width: 50px;
+    background-color: var(--acsent-color);
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.burger__line {
+    width: 21px;
+    height: 3px;
+    margin-bottom: 4px;
+    background-color: #fff;
+}
+.burger__line:last-child{
+    margin-bottom: 0;
+}
+.h1 {
+    max-width: 734px;
+    color:var(--white-color);
+    font-family: "Oswald" , sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    letter-spacing: 0.2vw;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 auto 20px ;
+}
+.h4 {
+    max-width: 734px;
+    color:var(--white-color);
+    font-family: "Oswald" , sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.text-h2{
+    text-transform: uppercase;
+    font-family: "Oswald" , sans-serif;
+    font-weight:500;
+    font-size:32px
+}
+
+.text-h3{
+    font-family: "Oswald" , sans-serif;
+    font-weight:500;
+    font-size:21px
+}
+
+.text-h4{
+    font-family: "Oswald" , sans-serif;
+    font-weight:500;
+    font-size:24px
+}
+.text-p{
+    font-family: "Open Sans" , sans-serif;
+    font-size:16px
+}
+.text-p-reviews{
+    font-family: "Open Sans" , sans-serif;
+    line-height:21px;
+    font-size:14px
+}
